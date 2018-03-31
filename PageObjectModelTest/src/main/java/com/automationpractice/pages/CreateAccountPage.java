@@ -16,12 +16,9 @@ public class CreateAccountPage extends  WebDriverCode implements CreateAccountPa
 		this.driver=driver;
 	}
 
-	
 
-	
 	public void enterFirstName(CreateUserBean bean) {
 		enterText(FIRSTNAME_LOCATOR, bean.getFirstName());
-		System.out.println("test commit");
 	}
 
 	public void enterLastName(CreateUserBean bean) {
